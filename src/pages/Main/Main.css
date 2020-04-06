@@ -1,0 +1,68 @@
+.imgPerfil{
+    border-radius:100%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.nomePerfil{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contentPerfil{
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.socialIcons{
+    padding: 0px 150px 0px;
+    width: 300px;
+    height: 100px;
+    margin: 10px 20px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#FFFFFF;
+}
+
+.icon{
+    border-radius:12px;
+}
+
+.icon:hover{
+    border-radius:12px;
+    width:52px;
+    height:52px;
+}
+
+.topicSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    justify-content: space-around;
+}
+
+.topicBox{
+    margin: 10px;
+    height:180px;
+    width:325px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:#FFFFFF;
+}
+
+.topicBox:hover{
+    margin: 8px;
+    height:184px;
+    width:329px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
